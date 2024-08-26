@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link rel="stylesheet" href="./public/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/submit" method="post" id="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Pablo, Santiago">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Ej. pablo@gmail.com">
+            <select id="pelicula" name="pelicula">
+                <option value="">Seleccione una película</option>
+                <option value="Deadpool">Deadpool & Wolverine</option>
+                <option value="bluelock">Blue Lock: Episodio Nagi</option>
+                <option value="intensamente">Intensa mente 2</option>
+                <option value="kung">Kung Fu panda 4</option>
+                <option value="garfield">Garfield: Fuera de casa</option>
+                <option value="theunion">The Union</option>
+            </select>
+            <textarea name="textarea" id="textarea" placeholder="Ingrese su critica"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+
+
+    <footer>
+        <p>
+            📖Creado por Julian Godoy📖
+        </p>
+    </footer>
+    <script src="./public/script.js"></script>
+</body>
+</html>
